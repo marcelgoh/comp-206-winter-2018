@@ -1,0 +1,59 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+LOAD_FIELD	src/preferences.c	/^#define LOAD_FIELD(/;"	d	file:
+MAX_FIELD_LENGTH	include/preferences.h	/^#define MAX_FIELD_LENGTH /;"	d
+MAX_LINES	include/preferences.h	/^#define MAX_LINES /;"	d
+MAX_LINE_LENGTH	include/preferences.h	/^#define MAX_LINE_LENGTH /;"	d
+NUM_FIELDS	src/preferences.c	/^                  last_book, favorite_dessert,  favorite_movie, NUM_FIELDS };$/;"	e	enum:field_list	file:
+PREFERENCES_H_	include/preferences.h	/^#define PREFERENCES_H_$/;"	d
+PREFERENCE_INFO	include/preferences.h	/^} PREFERENCE_INFO;$/;"	t	typeref:struct:s_preference_info
+PRINT_FIELD	src/preferences.c	/^#define PRINT_FIELD(/;"	d	file:
+cats_or_dogs	include/preferences.h	/^	int cats_or_dogs;$/;"	m	struct:s_preference_info
+cats_or_dogs	src/preferences.c	/^enum field_list{  first_name, last_name, favorite_number, estimated_btc_price, cats_or_dogs, $/;"	e	enum:field_list	file:
+compute_difference_alphabetic	src/distances.c	/^double compute_difference_alphabetic( PREFERENCE_INFO *one, PREFERENCE_INFO *two ){$/;"	f
+compute_difference_numeric	src/distances.c	/^double compute_difference_numeric( PREFERENCE_INFO *one, PREFERENCE_INFO *two ){$/;"	f
+debug	include/preferences.h	/^	#define debug(/;"	d
+estimated_btc_price	include/preferences.h	/^	double estimated_btc_price;$/;"	m	struct:s_preference_info
+estimated_btc_price	src/preferences.c	/^enum field_list{  first_name, last_name, favorite_number, estimated_btc_price, cats_or_dogs, $/;"	e	enum:field_list	file:
+favorite_book	include/preferences.h	/^	char favorite_book[100];$/;"	m	struct:s_preference_info
+favorite_book	src/preferences.c	/^                  first_language, last_language, favorite_meal, favorite_book, year_of_singularity, $/;"	e	enum:field_list	file:
+favorite_dessert	include/preferences.h	/^	char favorite_dessert[100];$/;"	m	struct:s_preference_info
+favorite_dessert	src/preferences.c	/^                  last_book, favorite_dessert,  favorite_movie, NUM_FIELDS };$/;"	e	enum:field_list	file:
+favorite_meal	include/preferences.h	/^	char favorite_meal[100];$/;"	m	struct:s_preference_info
+favorite_meal	src/preferences.c	/^                  first_language, last_language, favorite_meal, favorite_book, year_of_singularity, $/;"	e	enum:field_list	file:
+favorite_movie	include/preferences.h	/^	char favorite_movie[100];$/;"	m	struct:s_preference_info
+favorite_movie	src/preferences.c	/^                  last_book, favorite_dessert,  favorite_movie, NUM_FIELDS };$/;"	e	enum:field_list	file:
+favorite_number	include/preferences.h	/^	double favorite_number;$/;"	m	struct:s_preference_info
+favorite_number	src/preferences.c	/^enum field_list{  first_name, last_name, favorite_number, estimated_btc_price, cats_or_dogs, $/;"	e	enum:field_list	file:
+field_list	src/preferences.c	/^enum field_list{  first_name, last_name, favorite_number, estimated_btc_price, cats_or_dogs, $/;"	g	file:
+field_offsets	src/preferences.c	/^int field_offsets[NUM_FIELDS] = { $/;"	v
+first_language	include/preferences.h	/^	char first_language[100];$/;"	m	struct:s_preference_info
+first_language	src/preferences.c	/^                  first_language, last_language, favorite_meal, favorite_book, year_of_singularity, $/;"	e	enum:field_list	file:
+first_name	include/preferences.h	/^	char  first_name[100];$/;"	m	struct:s_preference_info
+first_name	src/preferences.c	/^enum field_list{  first_name, last_name, favorite_number, estimated_btc_price, cats_or_dogs, $/;"	e	enum:field_list	file:
+input_animal	src/preferences.c	/^void input_animal( void *animal_field, char *input_text ){ $/;"	f
+input_double	src/preferences.c	/^void input_double( void *number_field, char *input_text ){ *(double*)number_field = atof(input_text); }$/;"	f
+input_fcn_array	src/preferences.c	/^void (*input_fcn_array[NUM_FIELDS])(void*, char*)= { input_string, input_string, input_double, input_double, input_animal, input_string, input_string, input_string, input_string, input_int, input_string, input_string, input_string };$/;"	v
+input_int	src/preferences.c	/^void input_int( void *number_field, char *input_text ){ *(int*)number_field = atof(input_text); }$/;"	f
+input_string	src/preferences.c	/^void input_string( void *string_field, char *input_text ){ strcpy( (char*)string_field, input_text ); }$/;"	f
+last_book	include/preferences.h	/^	char last_book[100];$/;"	m	struct:s_preference_info
+last_book	src/preferences.c	/^                  last_book, favorite_dessert,  favorite_movie, NUM_FIELDS };$/;"	e	enum:field_list	file:
+last_language	include/preferences.h	/^	char last_language[100];$/;"	m	struct:s_preference_info
+last_language	src/preferences.c	/^                  first_language, last_language, favorite_meal, favorite_book, year_of_singularity, $/;"	e	enum:field_list	file:
+last_name	include/preferences.h	/^	char last_name[100]; $/;"	m	struct:s_preference_info
+last_name	src/preferences.c	/^enum field_list{  first_name, last_name, favorite_number, estimated_btc_price, cats_or_dogs, $/;"	e	enum:field_list	file:
+load_one_preference	src/preferences.c	/^void load_one_preference( PREFERENCE_INFO *dest, char *input_file ){$/;"	f
+main	src/movie_recommender.c	/^int main( int argc, char* argv[] ){$/;"	f
+output_animal	src/preferences.c	/^void output_animal( char *output_text, void *animal_field ){ $/;"	f
+output_double	src/preferences.c	/^void output_double( char *output_text, void *number_field ){ sprintf( output_text, "%g", *(double*)number_field ); }$/;"	f
+output_fcn_array	src/preferences.c	/^void (*output_fcn_array[NUM_FIELDS])(char*, void*)= { output_string, output_string, output_double, output_double, output_animal, output_string, output_string, output_string, output_string, output_int, output_string, output_string, output_string };$/;"	v
+output_int	src/preferences.c	/^void output_int( char *output_text, void *number_field ){ sprintf( output_text, "%d", *(int*)number_field ); }$/;"	f
+output_string	src/preferences.c	/^void output_string( char *output_text, void *string_field ){ sprintf( output_text, "%s", (char*)string_field ); }$/;"	f
+print_preference	src/preferences.c	/^void print_preference( PREFERENCE_INFO *pref ){$/;"	f
+s_preference_info	include/preferences.h	/^typedef struct s_preference_info{ $/;"	s
+year_of_singularity	include/preferences.h	/^	int year_of_singularity;$/;"	m	struct:s_preference_info
+year_of_singularity	src/preferences.c	/^                  first_language, last_language, favorite_meal, favorite_book, year_of_singularity, $/;"	e	enum:field_list	file:
