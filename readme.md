@@ -4,6 +4,6 @@ Solutions to the assignments from the McGill University course COMP 206: Intro t
 
 Posted after the course end date with permission from Prof. David Meger.
 
-Authors:
-Code template: Prof. David Meger
+Authors:  
+Code template: Prof. David Meger  
 Assignment solutions: Marcel Goh
