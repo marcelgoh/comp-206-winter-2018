@@ -1,6 +1,6 @@
 # COMP 206 Assignment 1
 
-## Question 1
+## Question 1:
 A program to automate the process of plotting Julia Sets using two float arguments as seeds.  
 Usage: `q1_julia_explorer <file_path> <a> <b>` 
 
